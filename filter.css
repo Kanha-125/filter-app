@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+    width: 100vw;
+    height: 76px;
+}
+
+nav ul li {
+    display: inline;
+
+
+}
+
+nav ul li a {
+    text-decoration: solid;
+    color: #ef7998;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    margin: 0 6px;
+}
+
+#logo {
+    padding: 25px;
+}
+
+#navUl {
+    padding: 0px 0 0 126px;
+    margin: 0 0 0 127px;
+
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kaushan Script', cursive;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px;
+    position: relative;
+    left: 368px;
+}
+
+.contactNumber {
+    position: relative;
+    left: 230px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 100;
+    padding: 8px;
+}
+
+#italic {
+    margin: 0 3px 0 0;
+
+}
+
+#para {
+    margin: 0 5px 0 15px;
+
+}
+
+.contain:hover {
+    background-color: #ef7998;
+    color: white;
+}
+
+.homeNav:hover {
+    color: black;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 100vw ;
+    background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url(image/headerBcg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+
+
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.position {
+    position: relative;
+    top: 175px;
+}
+
+#h1 {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 47px;
+    margin: 14px 31px;
+}
+
+#h12 {
+    font-family: 'Kaushan Script', cursive;
+    color: #ef7998;
+    font-weight: 800;
+    font-size: 62px;
+    margin: 1px -11px;
+
+}
+
+#explore {
+    width: 134px;
+    height: 50px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 22px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 6px;
+    text-align: center;
+    background: transparent;
+}
+
+#explore:hover {
+    background-color: #000;
+    color: #ef7998;
+}
+
+.second {
+    display: flex;
+    width: 100vw;
+    height: 570px;
+    background-color: white;
+
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 378px;
+    position: relative;
+    top: 64px;
+    left: 76px;
+    padding: 43px 43px 0 43px;
+}
+
+.parag {
+    color: #6c757d !important;
+    font-family: 'Kaushan Script', cursive;
+    margin: 0 0 30px 0;
+
+}
+
+#btton:hover {
+    background-color: #000;
+    color: #ef7998;
+
+}
+
+#btton {
+    height: 35px;
+    width: 106px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 11px;
+    text-align: center;
+    background: transparent;
+}
+
+#image {
+    position: relative;
+    top: 102px;
+    right: -251px;
+    border: 9px solid rgb(249, 228, 148);
+    transition: border-width .7s;
+
+}
+
+#image:hover {
+    border-width: 4px;
+    border-color: #ef7998;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: auto;
+    width: 100vw;
+}
+
+.ourStore {
+
+    display: flex;
+    font-family: 'kaushan Script', cursive;
+    margin: 8px;
+    height: 54px;
+    padding: 4px;
+    margin: 78px 0 24px 0px;
+}
+
+#our {
+    FONT-SIZE: 47PX;
+    font-weight: 100;
+}
+
+#store {
+    font-size: 65px;
+    color: #ef7998;
+    margin: -18px 0 0 13px;
+}
+
+.buttons123 {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: "kaushan Script", cursive;
+    height: 43px;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 9px;
+    margin: 22px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.buttons123:hover {
+    background-color: #000;
+    color: #ef7998;
+}
+
+#searchButton {
+    margin: 5px 0 5px 5px;
+    background-color: #ef7998;
+    border: 1px solid rgb(163 153 153);
+    height: 32px;
+}
+
+
+#textInput {
+
+    height: 30px;
+    width: 440px;
+    border: 1px solid rgb(163 153 153);
+    border-radius: 3px;
+    font-family: "kaushan Script", cursive;
+    font-size: 19px;
+    box-sizing: border-box;
+    padding: 4px;
+
+}
+
+.store {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0px 100px 0 141px;
+
+}
+
+.Price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d3c6c6;
+    margin: -5px 0 0 0;
+    height: 74px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: white;
+    font-family: "kaushan Script", cursive;
+    font-size: 21px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10,
+.image11,
+.image12 {
+    margin: 31px;
+    transition: .4s ease;
+
+}
+
+.image1:hover,
+.image2:hover,
+.image3:hover,
+.image4:hover,
+.image5:hover,
+.image6:hover,
+.image7:hover,
+.image8:hover,
+.image9:hover,
+.image10:hover,
+.image11:hover,
+.image12:hover {
+    transform: scale(1.1);
+    border: 2px solid rgba(248, 63, 223, 0.5);
+}
+
